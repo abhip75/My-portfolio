@@ -8,6 +8,7 @@ import redeye from "../public/red-eye.jpg";
 import evo from "../public/tesla.jpg";
 import nft from "../public/nft.jpg";
 import nike from "../public/movies.jpg";
+import dashboard from "../public/next-dashboard.jpg";
 import Link from "next/link";
 
 const ProjectCard = () => {
@@ -45,9 +46,18 @@ const ProjectCard = () => {
       link: "https://e-commerce-mern-app-gvib.vercel.app/",
       target: "_blank",
     },
-
     {
       id: 5,
+      image: dashboard,
+      title: "Nextjs Dashbaord",
+      description:
+        "Created responsive dashboard using next js and tailwind css",
+      link: "https://nextjs-dashboard-gold.vercel.app/",
+      target: "_blank",
+    },
+
+    {
+      id: 6,
       image: portfolio,
       title: "Portfolio",
       description: "Portfolio made using NextJS and Tailwind CSS",

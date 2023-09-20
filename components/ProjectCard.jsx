@@ -10,6 +10,7 @@ import nft from "../public/nft.jpg";
 import nike from "../public/movies.jpg";
 import dashboard from "../public/next-dashboard.jpg";
 import shop from "../public/ecom.jpg";
+import todo from "../public/todo.png";
 import Link from "next/link";
 
 const ProjectCard = () => {
@@ -67,6 +68,15 @@ const ProjectCard = () => {
 
     {
       id: 7,
+      image: todo,
+      title: "Nextjs Fullstack",
+      description: "Created a todo app using Next js, jwt auth and Mongo DB",
+      link: "https://next-js-fullstack-app-orcin.vercel.app/",
+      target: "_blank",
+    },
+
+    {
+      id: 8,
       image: portfolio,
       title: "Portfolio",
       description: "Portfolio made using NextJS and Tailwind CSS",

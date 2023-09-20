@@ -9,6 +9,7 @@ import evo from "../public/tesla.jpg";
 import nft from "../public/nft.jpg";
 import nike from "../public/movies.jpg";
 import dashboard from "../public/next-dashboard.jpg";
+import shop from "../public/ecom.jpg";
 import Link from "next/link";
 
 const ProjectCard = () => {
@@ -40,6 +41,14 @@ const ProjectCard = () => {
     },
     {
       id: 4,
+      image: shop,
+      title: "Shopping Cart",
+      description: "Created ecommerce project using React js and Tailwind css",
+      link: "https://shop-cart-rust.vercel.app/",
+      target: "_blank",
+    },
+    {
+      id: 5,
       image: nike,
       title: "Movie App",
       description: "Created Movie App",
@@ -47,7 +56,7 @@ const ProjectCard = () => {
       target: "_blank",
     },
     {
-      id: 5,
+      id: 6,
       image: dashboard,
       title: "Nextjs Dashbaord",
       description:
@@ -57,7 +66,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       image: portfolio,
       title: "Portfolio",
       description: "Portfolio made using NextJS and Tailwind CSS",

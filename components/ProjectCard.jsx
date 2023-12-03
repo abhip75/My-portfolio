@@ -26,14 +26,6 @@ const ProjectCard = () => {
 
     {
       id: 2,
-      image: pokedex,
-      title: "Pokedex",
-      description: "Gotta Catch'em All. Explore your Pokemon",
-      link: "https://poke-dex-next-app.vercel.app/",
-      target: "_blank",
-    },
-    {
-      id: 3,
       image: evo,
       title: "Tesla Clone",
       description: "Landing Page",
@@ -41,7 +33,7 @@ const ProjectCard = () => {
       target: "_blank",
     },
     {
-      id: 4,
+      id: 3,
       image: shop,
       title: "Shopping Cart",
       description: "Created ecommerce project using React js and Tailwind css",
@@ -49,7 +41,7 @@ const ProjectCard = () => {
       target: "_blank",
     },
     {
-      id: 5,
+      id: 4,
       image: nike,
       title: "Movie App",
       description: "Created Movie App",
@@ -57,7 +49,7 @@ const ProjectCard = () => {
       target: "_blank",
     },
     {
-      id: 6,
+      id: 5,
       image: dashboard,
       title: "Nextjs Dashbaord",
       description:
@@ -67,7 +59,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 7,
+      id: 6,
       image: todo,
       title: "Nextjs Fullstack",
       description: "Created a todo app using Next js, jwt auth and Mongo DB",
@@ -76,7 +68,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 8,
+      id: 7,
       image: portfolio,
       title: "Portfolio",
       description: "Portfolio made using NextJS and Tailwind CSS",

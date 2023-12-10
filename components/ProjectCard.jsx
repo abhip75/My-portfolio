@@ -17,6 +17,22 @@ const ProjectCard = () => {
   const data = [
     {
       id: 1,
+      image: shop,
+      title: "Shopping Cart",
+      description: "Created ecommerce project using React js and Tailwind css",
+      link: "https://shop-cart-rust.vercel.app/",
+      target: "_blank",
+    },
+    {
+      id: 2,
+      image: nike,
+      title: "Movie App",
+      description: "Created Movie App",
+      link: "https://e-commerce-mern-app-gvib.vercel.app/",
+      target: "_blank",
+    },
+    {
+      id: 3,
       image: aizen,
       title: "Dashboard",
       description: "Created dashboard using react js and material ui",
@@ -25,31 +41,17 @@ const ProjectCard = () => {
     },
 
     {
-      id: 2,
+      id: 4,
       image: evo,
       title: "Tesla Clone",
       description: "Landing Page",
       link: "https://react-redux-project-theta.vercel.app/",
       target: "_blank",
     },
+    
+    
     {
-      id: 3,
-      image: shop,
-      title: "Shopping Cart",
-      description: "Created ecommerce project using React js and Tailwind css",
-      link: "https://shop-cart-rust.vercel.app/",
-      target: "_blank",
-    },
-    {
-      id: 4,
-      image: nike,
-      title: "Movie App",
-      description: "Created Movie App",
-      link: "https://e-commerce-mern-app-gvib.vercel.app/",
-      target: "_blank",
-    },
-    {
-      id: 5,
+      id: 6,
       image: dashboard,
       title: "Nextjs Dashbaord",
       description:
@@ -59,7 +61,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       image: todo,
       title: "Nextjs Fullstack",
       description: "Created a todo app using Next js, jwt auth and Mongo DB",
@@ -68,7 +70,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 7,
+      id: 8,
       image: portfolio,
       title: "Portfolio",
       description: "Portfolio made using NextJS and Tailwind CSS",

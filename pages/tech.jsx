@@ -119,6 +119,15 @@ const tech = () => {
       bg: "bg-orange-500",
       text: "text-orange-100",
     },
+    {
+      title: "MySQL",
+      id: 12,
+      main: "/icons/mysql-icon.svg",
+      desc: "A relational database management system (RDBMS) that allows users to store, manage, and retrieve data.",
+      tag: "database",
+      bg: "bg-orange-500",
+      text: "text-orange-100",
+    },
   ];
   const [idNumber, setIdNumber] = useState(0);
   const changeId = (id) => {

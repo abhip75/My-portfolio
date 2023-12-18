@@ -11,6 +11,7 @@ import nike from "../public/movies.jpg";
 import dashboard from "../public/next-dashboard.jpg";
 import shop from "../public/ecom.jpg";
 import todo from "../public/todo.png";
+import note from "../public/notes.jpg";
 import Link from "next/link";
 
 const ProjectCard = () => {
@@ -33,6 +34,15 @@ const ProjectCard = () => {
     },
     {
       id: 3,
+      image: note,
+      title: "Notes App",
+      description: "Created Notes App using React Js with typescript",
+      link: "https://notes-app-phi-rose.vercel.app/",
+      target: "_blank",
+    },
+
+    {
+      id: 4,
       image: aizen,
       title: "Dashboard",
       description: "Created dashboard using react js and material ui",
@@ -41,7 +51,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 4,
+      id: 5,
       image: evo,
       title: "Tesla Clone",
       description: "Landing Page",

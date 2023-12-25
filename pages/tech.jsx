@@ -29,8 +29,17 @@ const tech = () => {
       text: "text-yellow-500",
     },
     {
-      title: "Bootstrap",
+      title: "TypeScript",
       id: 2,
+      main: "/icons/typescript.svg",
+      desc: "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+      tag: "code",
+      bg: "bg-yellow-50",
+      text: "text-yellow-500",
+    },
+    {
+      title: "Bootstrap",
+      id: 3,
       main: "/icons/bootstrap-4.svg",
       desc: "SuperScript of Javascript, made by microsoft with robust type safety.",
       tag: "code",
@@ -39,7 +48,7 @@ const tech = () => {
     },
     {
       title: "React JS",
-      id: 3,
+      id: 4,
       main: "/icons/react-original.svg",
       desc: "A free and open-source front-end JavaScript library for building user interfaces based on components",
       tag: "develop",
@@ -48,7 +57,7 @@ const tech = () => {
     },
     {
       title: "Next JS",
-      id: 4,
+      id: 5,
       main: "/icons/nextjs-original.svg",
       desc: "An open-source web development framework providing React-based web applications.",
       tag: "develop",
@@ -57,7 +66,7 @@ const tech = () => {
     },
     {
       title: "React Native",
-      id: 5,
+      id: 6,
       main: "/icons/react-native.svg",
       desc: "React Native is an open-source JavaScript framework for building mobile applications that allows developers to use React to create native-like experiences for both iOS and Android platforms.",
       tag: "develop",
@@ -66,7 +75,7 @@ const tech = () => {
     },
     {
       title: "Tailwind CSS",
-      id: 6,
+      id: 7,
       main: "/icons/tailwindcss-plain.svg",
       desc: "A utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
       tag: "design",
@@ -75,7 +84,7 @@ const tech = () => {
     },
     {
       title: "Material UI",
-      id: 7,
+      id: 8,
       main: "/icons/materialui-original.svg",
       desc: "A comprehensive suite of UI tools to help you ship new features faster.",
       tag: "develop",
@@ -84,7 +93,7 @@ const tech = () => {
     },
     {
       title: "SASS",
-      id: 8,
+      id: 9,
       main: "/icons/sass-original.svg",
       desc: "CSS with superpowers. The most powerful professional grade CSS extension language in the world.",
       tag: "design",
@@ -94,7 +103,7 @@ const tech = () => {
 
     {
       title: "Figma",
-      id: 9,
+      id: 10,
       main: "/icons/figma-original.svg",
       desc: "A boon for webapp designers, from wireframe to animation, it has it all.",
       tag: "design",
@@ -103,7 +112,7 @@ const tech = () => {
     },
     {
       title: "GitHub",
-      id: 10,
+      id: 11,
       main: "/icons/github-original.svg",
       desc: "A developer's go-to platform for collaborating and showcasing their code.",
       tag: "platform",
@@ -112,7 +121,7 @@ const tech = () => {
     },
     {
       title: "Brave",
-      id: 11,
+      id: 12,
       main: "/brave-icon.svg",
       desc: "A privacy focused browser used to block ads and extra pops.",
       tag: "platform",
@@ -121,7 +130,7 @@ const tech = () => {
     },
     {
       title: "MySQL",
-      id: 12,
+      id: 13,
       main: "/icons/mysql-icon.svg",
       desc: "A relational database management system (RDBMS) that allows users to store, manage, and retrieve data.",
       tag: "database",

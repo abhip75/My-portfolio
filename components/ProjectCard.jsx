@@ -12,6 +12,7 @@ import dashboard from "../public/next-dashboard.jpg";
 import shop from "../public/ecom.jpg";
 import todo from "../public/todo.png";
 import note from "../public/notes.jpg";
+import booking from "../public/booking.png";
 import Link from "next/link";
 
 const ProjectCard = () => {
@@ -34,6 +35,15 @@ const ProjectCard = () => {
     },
     {
       id: 3,
+      image: booking,
+      title: "Booking App",
+      description: "Created a Booking App where we can search hotels and rooms using Next Js",
+      link: "https://www.awesomescreenshot.com/video/23770439?key=e6c1ccb0f34564be2f002989d4ed665a",
+      target: "_blank",
+    },
+
+    {
+      id: 4,
       image: note,
       title: "Notes App",
       description: "Created Notes App using React Js with typescript",
@@ -42,7 +52,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 4,
+      id: 5,
       image: aizen,
       title: "Dashboard",
       description: "Created dashboard using react js and material ui",
@@ -51,7 +61,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 5,
+      id: 6,
       image: evo,
       title: "Tesla Clone",
       description: "Landing Page",
@@ -61,7 +71,7 @@ const ProjectCard = () => {
     
     
     {
-      id: 6,
+      id: 7,
       image: dashboard,
       title: "Nextjs Dashbaord",
       description:
@@ -71,7 +81,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 7,
+      id: 8,
       image: todo,
       title: "Nextjs Fullstack",
       description: "Created a todo app using Next js, jwt auth and Mongo DB",
@@ -80,7 +90,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 8,
+      id: 9,
       image: portfolio,
       title: "Portfolio",
       description: "Portfolio made using NextJS and Tailwind CSS",

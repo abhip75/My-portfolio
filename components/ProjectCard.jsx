@@ -38,7 +38,7 @@ const ProjectCard = () => {
       image: booking,
       title: "Booking App",
       description: "Created a Booking App using Next Js, where we can search hotels and rooms.",
-      link: "https://www.awesomescreenshot.com/video/23770439?key=e6c1ccb0f34564be2f002989d4ed665a",
+      link: "https://www.awesomescreenshot.com/video/23791032?key=d662b2685aac3193f65c3faf10156c27",
       target: "_blank",
     },
 

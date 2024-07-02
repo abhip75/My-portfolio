@@ -14,11 +14,21 @@ import todo from "../public/todo.png";
 import note from "../public/notes.jpg";
 import booking from "../public/booking.png";
 import Link from "next/link";
+import python from "../public/python.png";
 
 const ProjectCard = () => {
   const data = [
     {
       id: 1,
+      image: python,
+      title: "Fullstack App",
+      description: "Created weather app using python, flask, mongodb and angular.",
+      link: "https://www.loom.com/share/96755207622240059023fd6f5701348d",
+      target: "_blank",
+    },
+
+    {
+      id: 2,
       image: shop,
       title: "Shopping Cart",
       description: "Created ecommerce project using React Js and Tailwind css",
@@ -26,7 +36,7 @@ const ProjectCard = () => {
       target: "_blank",
     },
     {
-      id: 2,
+      id: 3,
       image: nike,
       title: "Movie App",
       description: "Created Movie App using React Js",
@@ -34,7 +44,7 @@ const ProjectCard = () => {
       target: "_blank",
     },
     {
-      id: 3,
+      id: 4,
       image: booking,
       title: "Booking App",
       description: "Created a Booking App using Next Js, where we can search hotels and rooms.",
@@ -43,7 +53,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 4,
+      id: 5,
       image: note,
       title: "Notes App",
       description: "Created Notes App using React Js with typescript",
@@ -52,7 +62,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 5,
+      id: 6,
       image: aizen,
       title: "Dashboard",
       description: "Created dashboard using react js and material ui",
@@ -61,7 +71,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       image: evo,
       title: "Tesla Clone",
       description: "Landing Page",
@@ -71,7 +81,7 @@ const ProjectCard = () => {
     
     
     {
-      id: 7,
+      id: 8,
       image: dashboard,
       title: "Nextjs Dashbaord",
       description:
@@ -81,7 +91,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 8,
+      id: 9,
       image: todo,
       title: "Nextjs Fullstack",
       description: "Created a todo app using Next js, jwt auth and Mongo DB",
@@ -90,7 +100,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 9,
+      id: 10,
       image: portfolio,
       title: "Portfolio",
       description: "Portfolio made using NextJS and Tailwind CSS",

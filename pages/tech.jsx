@@ -56,8 +56,17 @@ const tech = () => {
       text: "text-blue-500",
     },
     {
-      title: "Next JS",
+      title: "Angular",
       id: 5,
+      main: "/icons/angular-icon.svg",
+      desc: "Angular is an open-source, JavaScript framework written in TypeScript.",
+      tag: "develop",
+      bg: "bg-blue-50",
+      text: "text-blue-500",
+    },
+    {
+      title: "Next JS",
+      id: 6,
       main: "/icons/nextjs-original.svg",
       desc: "An open-source web development framework providing React-based web applications.",
       tag: "develop",
@@ -66,7 +75,7 @@ const tech = () => {
     },
     {
       title: "React Native",
-      id: 6,
+      id: 7,
       main: "/icons/react-native.svg",
       desc: "React Native is an open-source JavaScript framework for building mobile applications that allows developers to use React to create native-like experiences for both iOS and Android platforms.",
       tag: "develop",
@@ -75,7 +84,7 @@ const tech = () => {
     },
     {
       title: "Tailwind CSS",
-      id: 7,
+      id: 8,
       main: "/icons/tailwindcss-plain.svg",
       desc: "A utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
       tag: "design",
@@ -84,7 +93,7 @@ const tech = () => {
     },
     {
       title: "Material UI",
-      id: 8,
+      id: 9,
       main: "/icons/materialui-original.svg",
       desc: "A comprehensive suite of UI tools to help you ship new features faster.",
       tag: "develop",
@@ -93,7 +102,7 @@ const tech = () => {
     },
     {
       title: "SASS",
-      id: 9,
+      id: 10,
       main: "/icons/sass-original.svg",
       desc: "CSS with superpowers. The most powerful professional grade CSS extension language in the world.",
       tag: "design",
@@ -103,7 +112,7 @@ const tech = () => {
 
     {
       title: "Figma",
-      id: 10,
+      id: 11,
       main: "/icons/figma-original.svg",
       desc: "A boon for webapp designers, from wireframe to animation, it has it all.",
       tag: "design",
@@ -112,7 +121,7 @@ const tech = () => {
     },
     {
       title: "GitHub",
-      id: 11,
+      id: 12,
       main: "/icons/github-original.svg",
       desc: "A developer's go-to platform for collaborating and showcasing their code.",
       tag: "platform",
@@ -121,7 +130,7 @@ const tech = () => {
     },
     {
       title: "Brave",
-      id: 12,
+      id: 13,
       main: "/brave-icon.svg",
       desc: "A privacy focused browser used to block ads and extra pops.",
       tag: "platform",
@@ -130,7 +139,7 @@ const tech = () => {
     },
     {
       title: "MySQL",
-      id: 13,
+      id: 14,
       main: "/icons/mysql-icon.svg",
       desc: "A relational database management system (RDBMS) that allows users to store, manage, and retrieve data.",
       tag: "database",

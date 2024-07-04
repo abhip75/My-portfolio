@@ -15,6 +15,7 @@ import note from "../public/notes.jpg";
 import booking from "../public/booking.png";
 import Link from "next/link";
 import python from "../public/python.png";
+import crud from "../public/crud.png";
 
 const ProjectCard = () => {
   const data = [
@@ -60,9 +61,18 @@ const ProjectCard = () => {
       link: "https://notes-app-phi-rose.vercel.app/",
       target: "_blank",
     },
-
+    
     {
       id: 6,
+      image: crud,
+      title: "Information App",
+      description: "Created information app using angular. We can delete any record.",
+      link: "https://angular-app-sigma.vercel.app/",
+      target: "_blank",
+    },
+
+    {
+      id: 7,
       image: aizen,
       title: "Dashboard",
       description: "Created dashboard using react js and material ui",
@@ -71,7 +81,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 7,
+      id: 8,
       image: evo,
       title: "Tesla Clone",
       description: "Landing Page",
@@ -81,7 +91,7 @@ const ProjectCard = () => {
     
     
     {
-      id: 8,
+      id: 9,
       image: dashboard,
       title: "Nextjs Dashbaord",
       description:
@@ -91,7 +101,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 9,
+      id: 10,
       image: todo,
       title: "Nextjs Fullstack",
       description: "Created a todo app using Next js, jwt auth and Mongo DB",
@@ -100,7 +110,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 10,
+      id: 11,
       image: portfolio,
       title: "Portfolio",
       description: "Portfolio made using NextJS and Tailwind CSS",

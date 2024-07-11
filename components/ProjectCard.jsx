@@ -16,6 +16,7 @@ import booking from "../public/booking.png";
 import Link from "next/link";
 import python from "../public/python.png";
 import crud from "../public/crud.png";
+import blog from "../public/blog.png";
 
 const ProjectCard = () => {
   const data = [
@@ -55,6 +56,15 @@ const ProjectCard = () => {
 
     {
       id: 5,
+      image: blog,
+      title: "Blog App",
+      description: "Created Blog App using React Js with GraphQL",
+      link: "https://blog-app-tawny-eight.vercel.app/",
+      target: "_blank",
+    },
+
+    {
+      id: 6,
       image: note,
       title: "Notes App",
       description: "Created Notes App using React Js with typescript",
@@ -63,7 +73,7 @@ const ProjectCard = () => {
     },
     
     {
-      id: 6,
+      id: 7,
       image: crud,
       title: "Information App",
       description: "Created information app using angular. We can delete any record.",
@@ -72,7 +82,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 7,
+      id: 8,
       image: aizen,
       title: "Dashboard",
       description: "Created dashboard using react js and material ui",
@@ -81,7 +91,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 8,
+      id: 9,
       image: evo,
       title: "Tesla Clone",
       description: "Landing Page",
@@ -91,7 +101,7 @@ const ProjectCard = () => {
     
     
     {
-      id: 9,
+      id: 10,
       image: dashboard,
       title: "Nextjs Dashbaord",
       description:
@@ -101,7 +111,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 10,
+      id: 11,
       image: todo,
       title: "Nextjs Fullstack",
       description: "Created a todo app using Next js, jwt auth and Mongo DB",
@@ -110,7 +120,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 11,
+      id: 12,
       image: portfolio,
       title: "Portfolio",
       description: "Portfolio made using NextJS and Tailwind CSS",

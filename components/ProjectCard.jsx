@@ -22,10 +22,10 @@ const ProjectCard = () => {
   const data = [
     {
       id: 1,
-      image: python,
-      title: "Fullstack App",
-      description: "Created weather app using python, flask, mongodb and angular.",
-      link: "https://www.loom.com/share/96755207622240059023fd6f5701348d",
+      image: crud,
+      title: "Information App",
+      description: "Created information app using angular. We can delete any record.",
+      link: "https://angular-app-sigma.vercel.app/",
       target: "_blank",
     },
 
@@ -74,10 +74,10 @@ const ProjectCard = () => {
     
     {
       id: 7,
-      image: crud,
-      title: "Information App",
-      description: "Created information app using angular. We can delete any record.",
-      link: "https://angular-app-sigma.vercel.app/",
+      image: python,
+      title: "Fullstack App",
+      description: "Created weather app using python, flask, mongodb and angular.",
+      link: "https://www.loom.com/share/96755207622240059023fd6f5701348d",
       target: "_blank",
     },
 

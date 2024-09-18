@@ -17,11 +17,22 @@ import Link from "next/link";
 import python from "../public/python.png";
 import crud from "../public/crud.png";
 import blog from "../public/blog.png";
+import dash from "../public/dash.png";
 
 const ProjectCard = () => {
   const data = [
+
     {
       id: 1,
+      image: dash,
+      title: "Dashboard App",
+      description: "Created angular-dasboard app using angular. We can delete any record.",
+      link: "https://angular-dashboard-peach.vercel.app/",
+      target: "_blank",
+    },
+
+    {
+      id: 2,
       image: crud,
       title: "Information App",
       description: "Created information app using angular. We can delete any record.",
@@ -30,7 +41,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 2,
+      id: 3,
       image: shop,
       title: "Shopping Cart",
       description: "Created ecommerce project using React Js and Tailwind css",
@@ -38,7 +49,7 @@ const ProjectCard = () => {
       target: "_blank",
     },
     {
-      id: 3,
+      id: 4,
       image: nike,
       title: "Movie App",
       description: "Created Movie App using React Js",
@@ -46,7 +57,7 @@ const ProjectCard = () => {
       target: "_blank",
     },
     {
-      id: 4,
+      id: 5,
       image: booking,
       title: "Booking App",
       description: "Created a Booking App using Next Js, where we can search hotels and rooms.",
@@ -55,7 +66,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 5,
+      id: 6,
       image: blog,
       title: "Blog App",
       description: "Created Blog App using React Js with GraphQL",
@@ -64,7 +75,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 6,
+      id: 7,
       image: note,
       title: "Notes App",
       description: "Created Notes App using React Js with typescript",
@@ -73,7 +84,7 @@ const ProjectCard = () => {
     },
     
     {
-      id: 7,
+      id: 8,
       image: python,
       title: "Fullstack App",
       description: "Created weather app using python, flask, mongodb and angular.",
@@ -82,7 +93,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 8,
+      id: 9,
       image: aizen,
       title: "Dashboard",
       description: "Created dashboard using react js and material ui",
@@ -91,7 +102,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 9,
+      id: 10,
       image: evo,
       title: "Tesla Clone",
       description: "Landing Page",
@@ -101,7 +112,7 @@ const ProjectCard = () => {
     
     
     {
-      id: 10,
+      id: 11,
       image: dashboard,
       title: "Nextjs Dashbaord",
       description:
@@ -111,7 +122,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 11,
+      id: 12,
       image: todo,
       title: "Nextjs Fullstack",
       description: "Created a todo app using Next js, jwt auth and Mongo DB",
@@ -120,7 +131,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 12,
+      id: 13,
       image: portfolio,
       title: "Portfolio",
       description: "Portfolio made using NextJS and Tailwind CSS",

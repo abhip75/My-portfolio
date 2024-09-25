@@ -145,7 +145,7 @@ export default function About() {
                 target="blank"
               >
                 {" "}
-                Abhshek Deepak Pawar
+                Abhishek Deepak Pawar
               </a>{" "}
               .
             </p>

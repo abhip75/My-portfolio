@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import aboutImage from "../public/profile-image.jpg";
+import aboutImage from "../public/abhishek-profile.jpg";
 import { useTheme } from "next-themes";
 import CategoryCard from "@/components/CategoryCard";
 import love_black from "../public/love-black.svg";
@@ -47,7 +47,7 @@ export default function About() {
                 height={600}
                 width={600}
                 className="rounded-2xl select-none drop-shadow-md shadow-purple-200 dark:shadow-orange-100/60 dark:drop-shadow-sm shadow-2xl h-28 w-28 md:h-32 md:w-32 lg:h-40 lg:w-40 border-white border-2"
-                alt="pranjal shikhar"
+                alt="abhishek pawar"
                 priority
               />
             </div>
@@ -126,7 +126,7 @@ export default function About() {
               While I may not be a widely recognized figure, i am readily
               available for connection on my social media platforms. <br />
               You can contact me on the{" "}
-              <span className="text-red-700 font-bold">GMail</span>{" "}
+              <span className="text-red-700 font-bold">Gmail</span>{" "}
               <a
                 onClick={() =>
                   navigator.clipboard.writeText("abhishekpwr944@gmail.com")

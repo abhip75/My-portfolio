@@ -102,11 +102,17 @@ const Experience = () => {
             a work of art, inviting the user on a journey through its purposeful
             and visually pleasing elements.
           </div>
-          <div className="flex flex-row ml-2 space-x-4 justify-center text-[0.9rem] dark:text-black ">
-            <span className="bg-gradient-to-b from-amber-100 to-orange-100 dark:from-amber-300 dark:to-orange-300 rounded-md text-center px-2 py-1">
-              Figma
-            </span>
-          </div>
+          
+          <div className="flex flex-row ml-2 space-x-4 justify-center text-[0.9rem] dark:text-black">
+          <Link 
+            href="https://www.figma.com/design/cNQUKtXXUfNccAmpOdS9GI/new-design-iphone?node-id=0-1&t=VHMUll6JtiZefaJ9-1" 
+            target="_blank" 
+            className="bg-gradient-to-b from-amber-100 to-orange-100 dark:from-amber-300 dark:to-orange-300 rounded-md text-center px-2 py-1 transition-all duration-300 ease-in-out hover:from-orange-300 hover:to-amber-300 dark:hover:from-orange-500 dark:hover:to-amber-400"
+          >
+            Figma
+          </Link>
+        </div>
+
           <div className="relative w-full h-80 rounded-[1.4rem] ">
             <Image
               fill

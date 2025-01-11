@@ -52,6 +52,7 @@ const Footer = () => {
           {/* GitHub{" "} */}
           <Image src={GitHub} alt="github" width="30" />
         </Link>
+
       </div>
       <a
         href="https://github.com/abhip75"

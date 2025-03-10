@@ -26,7 +26,7 @@ const ProjectCard = () => {
       id: 1,
       image: movie,
       title: "Movie Clone",
-      description: "Created a mive app using Next Js-15, TMDB Api and Tailwind Css.",
+      description: "Created a movie app using Next Js-15, TMDB Api and Tailwind Css.",
       link: "https://movie-app-2vua.vercel.app/",
       target: "_blank",
     },

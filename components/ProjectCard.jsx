@@ -48,25 +48,9 @@ const ProjectCard = () => {
       link: "https://e-commerce-mern-app-gvib.vercel.app/",
       target: "_blank",
     },
-      {
+      
+    {
       id: 4,
-      image: dash,
-      title: "Dashboard App",
-      description: "Created angular-dasboard app using angular. We can delete any record.",
-      link: "https://angular-dashboard-peach.vercel.app/",
-      target: "_blank",
-    },
-
-    {
-      id: 5,
-      image: crud,
-      title: "Information App",
-      description: "Created information app using angular. We can delete any record.",
-      link: "https://angular-app-sigma.vercel.app/",
-      target: "_blank",
-    },
-    {
-      id: 6,
       image: booking,
       title: "Booking App",
       description: "Created a Booking App using Next Js, where we can search hotels and rooms.",
@@ -75,11 +59,28 @@ const ProjectCard = () => {
     },
 
     {
-      id: 7,
+      id: 5,
       image: blog,
       title: "Blog App",
       description: "Created Blog App using React Js with GraphQL",
       link: "https://blog-app-tawny-eight.vercel.app/",
+      target: "_blank",
+    },
+    {
+      id: 6,
+      image: dash,
+      title: "Dashboard App",
+      description: "Created angular-dasboard app using angular. We can delete any record.",
+      link: "https://angular-dashboard-peach.vercel.app/",
+      target: "_blank",
+    },
+
+    {
+      id: 7,
+      image: crud,
+      title: "Information App",
+      description: "Created information app using angular. We can delete any record.",
+      link: "https://angular-app-sigma.vercel.app/",
       target: "_blank",
     },
 

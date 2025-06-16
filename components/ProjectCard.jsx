@@ -30,8 +30,26 @@ const ProjectCard = () => {
       link: "https://movie-app-2vua.vercel.app/",
       target: "_blank",
     },
+  
+
     {
       id: 2,
+      image: shop,
+      title: "Shopping Cart",
+      description: "Created ecommerce project using React Js and Tailwind css",
+      link: "https://shop-cart-rust.vercel.app/",
+      target: "_blank",
+    },
+    {
+      id: 3,
+      image: nike,
+      title: "Movie App",
+      description: "Created Movie App using React Js",
+      link: "https://e-commerce-mern-app-gvib.vercel.app/",
+      target: "_blank",
+    },
+      {
+      id: 4,
       image: dash,
       title: "Dashboard App",
       description: "Created angular-dasboard app using angular. We can delete any record.",
@@ -40,28 +58,11 @@ const ProjectCard = () => {
     },
 
     {
-      id: 3,
+      id: 5,
       image: crud,
       title: "Information App",
       description: "Created information app using angular. We can delete any record.",
       link: "https://angular-app-sigma.vercel.app/",
-      target: "_blank",
-    },
-
-    {
-      id: 4,
-      image: shop,
-      title: "Shopping Cart",
-      description: "Created ecommerce project using React Js and Tailwind css",
-      link: "https://shop-cart-rust.vercel.app/",
-      target: "_blank",
-    },
-    {
-      id: 5,
-      image: nike,
-      title: "Movie App",
-      description: "Created Movie App using React Js",
-      link: "https://e-commerce-mern-app-gvib.vercel.app/",
       target: "_blank",
     },
     {

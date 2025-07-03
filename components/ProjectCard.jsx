@@ -24,6 +24,23 @@ const ProjectCard = () => {
   const data = [
     {
       id: 1,
+      image: dashboard,
+      title: "Nextjs Dashbaord",
+      description:
+        "Created responsive dashboard using next js and tailwind css",
+      link: "https://nextjs-dashboard-gold.vercel.app/",
+      target: "_blank",
+    },
+    {
+      id: 2,
+      image: aizen,
+      title: "Dashboard",
+      description: "Created dashboard using react js and material ui",
+      link: "https://react-dashboard-hazel.vercel.app/",
+      target: "_blank",
+    },
+    {
+      id: 3,
       image: movie,
       title: "Movie Clone",
       description: "Created a movie app using Next Js-15, TMDB Api and Tailwind Css.",
@@ -33,7 +50,7 @@ const ProjectCard = () => {
   
 
     {
-      id: 2,
+      id: 4,
       image: shop,
       title: "Shopping Cart",
       description: "Created ecommerce project using React Js and Tailwind css",
@@ -41,7 +58,7 @@ const ProjectCard = () => {
       target: "_blank",
     },
     {
-      id: 3,
+      id: 5,
       image: nike,
       title: "Movie App",
       description: "Created Movie App using React Js",
@@ -50,7 +67,7 @@ const ProjectCard = () => {
     },
       
     {
-      id: 4,
+      id: 6,
       image: booking,
       title: "Booking App",
       description: "Created a Booking App using Next Js, where we can search hotels and rooms.",
@@ -59,7 +76,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 5,
+      id: 7,
       image: blog,
       title: "Blog App",
       description: "Created Blog App using React Js with GraphQL",
@@ -67,7 +84,7 @@ const ProjectCard = () => {
       target: "_blank",
     },
     {
-      id: 6,
+      id: 8,
       image: dash,
       title: "Dashboard App",
       description: "Created angular-dasboard app using angular. We can delete any record.",
@@ -76,7 +93,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 7,
+      id: 9,
       image: crud,
       title: "Information App",
       description: "Created information app using angular. We can delete any record.",
@@ -85,7 +102,7 @@ const ProjectCard = () => {
     },
 
     {
-      id: 8,
+      id: 10,
       image: note,
       title: "Notes App",
       description: "Created Notes App using React Js with typescript",
@@ -94,7 +111,7 @@ const ProjectCard = () => {
     },
     
     {
-      id: 9,
+      id: 11,
       image: python,
       title: "Fullstack App",
       description: "Created weather app using python, flask, mongodb and angular.",
@@ -102,17 +119,10 @@ const ProjectCard = () => {
       target: "_blank",
     },
 
-    {
-      id: 10,
-      image: aizen,
-      title: "Dashboard",
-      description: "Created dashboard using react js and material ui",
-      link: "https://react-dashboard-hazel.vercel.app/",
-      target: "_blank",
-    },
+    
 
     {
-      id: 11,
+      id: 12,
       image: evo,
       title: "Tesla Clone",
       description: "Landing Page",
@@ -121,15 +131,7 @@ const ProjectCard = () => {
     },
     
     
-    {
-      id: 12,
-      image: dashboard,
-      title: "Nextjs Dashbaord",
-      description:
-        "Created responsive dashboard using next js and tailwind css",
-      link: "https://nextjs-dashboard-gold.vercel.app/",
-      target: "_blank",
-    },
+    
 
     {
       id: 13,
